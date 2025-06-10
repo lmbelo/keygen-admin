@@ -17,6 +17,12 @@ If you're an app developer, and you sell software with a license, Keygen.sh is a
 
 `Keygen Admin` is simple UI over that API.
 
+## Dockefile
+``` bash
+docker build -t keygen-admin .
+docker run -p 3000:3000 keygen-admin
+```
+
 ## Keygen.js
 
 Check out the underlying [Keygen.js](https://github.com/themaximal1st/keygen.js) library for interacting with the Keygen API.
